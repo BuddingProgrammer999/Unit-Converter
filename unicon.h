@@ -351,7 +351,7 @@ double seconds_to_hours(double number) {
 double seconds_to_minutes(double number) {
     return number / 60;
 }
-double seconds_to_minutes(double number) {
+double seconds_to_milliseconds(double number) {
     return number * 1000;
 }
 // CONVERSIONS OF MILLISECONDS
